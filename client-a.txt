@@ -2,3 +2,25 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Set SecretNumber to Random Number between 1 to 10
+Set GuessNumber to 0
+Set Attempts to 0 
+Set MaxAttempts to 3
+
+While Attempts < MaxAttempts AND
+GuessNumber NOT = SecretNumber
+
+print "Enter your GuessNumber:"
+Read GuessNumber
+Increment Attempts
+
+If GuessNumber = SecretNumber
+   "Congratulations you guessed the number Correct"
+Else    
+	"Try Again"
+End If
+End While
+
+If GuessNumber is not equal to SecretNumber
+	Print "Sorry, you have used all your attempts. The correct number was " +SecretNumber + "."
+End If
