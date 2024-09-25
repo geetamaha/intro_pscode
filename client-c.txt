@@ -2,3 +2,9 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set number to 2
+
+while number <= 50
+	print number
+	set number to number + 2 
+end while
