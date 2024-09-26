@@ -2,3 +2,15 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+1. Start
+2. Initialize warehouse map with locations
+3. Set customer's starting position
+4. Set target location
+5. While customer's position is not equal to target location:
+    a. Display current position
+    b. Prompt customer for direction (north, south, east, west)
+    c. Update customer's position based on input
+    d. Check if new position is valid (within warehouse boundaries)
+    e. If position is not valid, revert to previous position and notify customer
+6. Display message: "You have reached your destination!"
+7. End
